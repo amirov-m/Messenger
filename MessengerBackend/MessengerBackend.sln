@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerBackend", "MessengerBackend\MessengerBackend.csproj", "{202A1E73-2AC7-4489-B8FB-A3C5CD72D09F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerBackend.Service", "MessengerBackend\MessengerBackend.Service.csproj", "{202A1E73-2AC7-4489-B8FB-A3C5CD72D09F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerBackend.ServiceDataModel", "MessengerBackend.ServiceDataModel\MessengerBackend.ServiceDataModel.csproj", "{A1D81208-A295-4082-B592-1837608AC38D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{202A1E73-2AC7-4489-B8FB-A3C5CD72D09F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{202A1E73-2AC7-4489-B8FB-A3C5CD72D09F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{202A1E73-2AC7-4489-B8FB-A3C5CD72D09F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D81208-A295-4082-B592-1837608AC38D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D81208-A295-4082-B592-1837608AC38D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D81208-A295-4082-B592-1837608AC38D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D81208-A295-4082-B592-1837608AC38D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

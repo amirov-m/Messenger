@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{202A1E73-2AC7-4489-B8FB-A3C5CD72D09F}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>MessengerBackend</RootNamespace>
-    <AssemblyName>MessengerBackend</AssemblyName>
+    <ProjectGuid>{A1D81208-A295-4082-B592-1837608AC38D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MessengerBackend.ServiceDataModel</RootNamespace>
+    <AssemblyName>MessengerBackend.ServiceDataModel</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -42,7 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
